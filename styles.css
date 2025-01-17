@@ -1,0 +1,75 @@
+/* styles.css */  
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    background-color: #f8f9fa;  
+    color: #333;  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: auto;  
+    padding: 20px;  
+    background: white;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    background-color: antiquewhite;
+}  
+
+header {  
+    text-align: center;  
+}  
+
+.hero-image img {  
+    width: 100%;  
+    height: auto;  
+    border-radius: 8px;  
+}
+header h1 {  
+    background-color: rgb(117, 204, 36);
+}  
+
+h1 {  
+    color: #007BFF;  
+}  
+
+h2 {  
+    margin-top: 20px;  
+    color: #333;  
+}  
+
+h3 {  
+    color: #007BFF;  
+}  
+
+.content {  
+    margin: 20px 0;  
+}  
+
+.challenges {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+    gap: 20px;  
+}  
+
+.challenge {  
+    background: #e9ecef;  
+    border-left: 4px solid #007BFF;  
+    padding: 10px;  
+    border-radius: 4px;  
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    background-color: rgb(117, 204, 36);
+}  
+
+footer a {  
+    text-decoration: none;  
+    color: #007BFF;  
+    font-weight: bold;  
+    
+}
