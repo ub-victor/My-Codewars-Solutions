@@ -4,7 +4,7 @@ let count = {};
 
 letters.forEach(item=>{
     
-    if(count[iteam]){
+    if(count[item]){
         count[item]++
     }else{
         count[item] = 1;
