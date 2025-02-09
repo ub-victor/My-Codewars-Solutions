@@ -1,3 +1,4 @@
+window.onload = function(){
 let contact = {
     email_1: "victoireushindi371@gmail.com",
     email_2: "rsmurphy@briazz.com"
@@ -16,3 +17,4 @@ output:
     email_1: victoire
     email_2: Bihame
 */
+}
