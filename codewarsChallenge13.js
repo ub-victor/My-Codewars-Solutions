@@ -1,3 +1,4 @@
+window.onload = function(){
 let contact = {  
     email_1: "bim",   
     name: "Ushindi",  
@@ -9,3 +10,5 @@ if(!contact.notes) {
     contact.notes = "something really important";
 }
 console.log(contact.notes);
+
+}
