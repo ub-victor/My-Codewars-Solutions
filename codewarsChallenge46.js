@@ -11,4 +11,5 @@ window.onload = function(){
     let message = student.name + " please see " + teacher.name+ " in " + teacher.room +
     " to pick up your card .";
     console.log(message);
+
 }
