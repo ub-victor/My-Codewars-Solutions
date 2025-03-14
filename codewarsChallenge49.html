@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Event Handling Example</title>  
+    <style>  
+        body {  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            justify-content: center;  
+            min-height: 100vh;  
+            margin: 0;
+            margin-left: 15px;  
+            font-family: Arial, sans-serif;  
+            background-color: #f0f0f0;  
+        }  
+        h1 {  
+            margin-bottom: 20px;  
+        }  
+        p {  
+            margin-bottom: 20px;  
+        }  
+        .button-container {  
+            display: flex;  
+            justify-content: space-between;  
+            width: 100%;  
+            padding: 0 20px;  
+        }  
+        button {  
+            padding: 10px 20px;  
+            font-size: 16px;  
+            color: white;  
+            background-color: #007bff;  
+            border: none;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            transition: background-color 0.3s ease;  
+        }  
+        button:hover {  
+            background-color: #0056b3;  
+        }  
+        a {  
+            text-decoration: none;  
+            color: white;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <h1>Event Handling Example</h1>  
+    <p>Click the button to see the alert</p>  
+    
+    <div class="button-container">  
+        <button id="myButton">Click me</button>  
+        <button><a href="index.html">Go back to the main page</a></button>  
+    </div>  
+    
+    <script>  
+        const button = document.getElementById('myButton');  
+        button.addEventListener('click', () =>   
+            alert('Button was clicked!'));  
+    </script>  
+</body>  
+</html>  
