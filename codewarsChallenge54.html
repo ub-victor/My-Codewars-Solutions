@@ -13,7 +13,8 @@
 
     <script>
         function  myDisplayer(some){
-            document.getElementDyId("demo").innerHTML = some;
+            document.getElementById("demo").innerHTML = some;
+            //  document.getElementById("demo").innerHTML += some + "<br>"; // Append the text  
         }
         function myFirst(){
             myDisplayer("Hello");
