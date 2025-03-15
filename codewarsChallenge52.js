@@ -10,3 +10,5 @@ let myPromise = new Promise((myResolve, myReject) => {
     }
 
 });
+
+// Using then() to display the result
