@@ -5,3 +5,10 @@ function myDisplay(message){
 function myFrist(){
     myDisplay("Hello Constant!");
 }
+
+function mySecond(){
+    myDisplay("Hello Victor , Can you then please help me with this challenge?");
+}
+
+myFrist();
+mySecond();
