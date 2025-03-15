@@ -14,7 +14,9 @@
     <script>
         function  myDisplayer(some){
             document.getElementById("demo").innerHTML = some;
-            //  document.getElementById("demo").innerHTML += some + "<br>"; // Append the text  
+            //  document.getElementById("demo").innerHTML += some + "<br>"; // Append the text 
+            
+            /*The use of += in document.getElementById("demo").innerHTML += some + "<br>"; allows you to append content instead of replacing it, ensuring both messages are displayed sequentially.*/ 
         }
         function myFirst(){
             myDisplayer("Hello");
