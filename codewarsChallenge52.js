@@ -12,6 +12,8 @@ let myPromise = new Promise((myResolve, myReject) => {
 });
 
 // Using then() to display the result
-myPromise.then(x => myDisplay(x), x => myDisplay(x));
-// Output: OK
-myPromise.catch(x => myDisplay(x));
+myPromise // A Promise object representing an asynchronous operation
+    .then(
+        x => myDisplay(x), // Arrow function to handle the resolved value of the Promise
+        x => myDisplay(x)  // Arrow function to handle the rejected reason of the Promise
+    );
