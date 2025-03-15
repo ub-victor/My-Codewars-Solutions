@@ -55,7 +55,7 @@ Develop critical thinking and problem-solving skills by tackling various coding 
 Code Organization and Best Practices:
 
 Learn to write clean, organized, and maintainable code, following best practices in JavaScript development.
-Basic HTML and CSS Knowledge:
+#### Basic HTML and CSS Knowledge:
 
 Understand how to structure a web page using HTML and style it with CSS, providing a foundation for front-end development.
 By completing these challenges, you will be well-equipped to tackle more advanced JavaScript topics and projects, making you a more competent and confident developer.
