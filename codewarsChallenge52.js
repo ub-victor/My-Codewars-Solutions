@@ -12,3 +12,6 @@ let myPromise = new Promise((myResolve, myReject) => {
 });
 
 // Using then() to display the result
+myPromise.then(x => myDisplay(x), x => myDisplay(x));
+// Output: OK
+myPromise.catch(x => myDisplay(x));
