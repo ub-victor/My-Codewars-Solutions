@@ -3,7 +3,7 @@ function myDisplay(message){
 }
 
 function myFrist(){
-    myDisplay("Hello Constant!");
+    myDisplay("Hello Constant!");// myDisplay is a function that takes a message as an argument
 }
 
 function mySecond(){
