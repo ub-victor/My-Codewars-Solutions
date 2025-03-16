@@ -8,7 +8,8 @@ function createSundae({scoops = 1, toppings = ['Hot Fudge']}){
     return `Your sundae ${scoops} ${scoopText} with ${toppings.join(' and ')} toppings.`
 }
 
-console.log({}); // Your sundae had 1 scoop with Hot Fudge toppings.
-console.log({scoops: 2}); // Your sundae had 2 scoops with Hot Fudge toppings.
-console.log({scoops : 2, toppings: ['Sprinkles']}) // Your sundae has 2 scoops with Sprinkles toppings.
-console.log({toppings: ['Cookie Dough']}) // Your sundae has 1 scoop with Cookie Dough toppings.
+console.log(createSundae({scoops: 2})); // Your sundae had 2 scoops with Hot Fudge toppings.
+console.log(createSundae({})); // Your sundae had 1 scoop with Hot Fudge toppings.
+console.log(createSundae({scoops : 2, toppings: ['Sprinkles']})) // Your sundae has 2 scoops with Sprinkles toppings.
+console.log(createSundae({toppings: ['Cookie Dough']})) // Your sundae has 1 scoop with Cookie Dough toppings.
+console.log(createSundae({scoops : 2, toppings: ['Sprinkles', 'Cookie Dough']})) // Your sundae has 2 scoops with Sprinkles and Cookie Dough toppings.
