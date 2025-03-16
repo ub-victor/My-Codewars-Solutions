@@ -4,15 +4,16 @@
 //         super = the parent
 
 class Animal{
-    constructor(){
+    constructor(name, age){
+        this.name = name;
+        this.age = age
 
     }
 
 }
 class Rabbit extends Animal{
     constructor(name, age, runSpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.runSpeed = runSpeed;
 
     }
@@ -20,8 +21,7 @@ class Rabbit extends Animal{
 
 class Fish extends Animal{
     constructor(name, age, swimSpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age); // super is
         this.swimSpeed = swimSpeed;
 
     }
@@ -29,10 +29,14 @@ class Fish extends Animal{
 
 class Hawk extends Animal{
     constructor(name, age, flySpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.flySpeed = runSpeed;
 
     }
 
 }
+
+
+const rabbit = new Rabbit ("rabbit", 1, 25)
+const fish = new Fish ("fish", 1, 25)
+const hawk = new Hawk ("hawk", 3, 50)
