@@ -10,3 +10,6 @@ console.log(createGrid([undefined, 3])); // Generates a 5 x 3 grid
 // There is a problem with this though, the following code will not work:
 
 createGrid(); // throws an error
+
+//This throws an error because createGrid() expects an array to be passed in that it will then destructure. Since the function was called without passing an array, it breaks. But, we can use default function parameters for this!
+
