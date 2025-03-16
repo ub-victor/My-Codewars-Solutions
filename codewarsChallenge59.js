@@ -21,7 +21,8 @@ class Rabbit extends Animal{
 
     }
     run(){
-        console.log(`This ${this.name} can run`)
+        console.log(`This ${this.name} can run`);
+        super.move(this.runSpeed);
     }
 }
 
@@ -33,7 +34,8 @@ class Fish extends Animal{
 
     }
     swim(){
-        console.log(`This ${this.name} can swim`)
+        console.log(`This ${this.name} can swim`);
+        super.move(this.swimSpeed);
     }
 }
 
@@ -44,7 +46,8 @@ class Hawk extends Animal{
 
     }
     fly(){
-        console.log(`This ${this.name} can fly`)
+        console.log(`This ${this.name} can fly`);
+        super.move(this.flySpeed);
     }
 
 }
