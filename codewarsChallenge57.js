@@ -18,3 +18,7 @@ function createGrid([width = 5, height = 5] = []) {
     return `Generates a ${width} x ${height} grid`;
   }
      */
+
+//See that new = [] in the function's parameter? If createGrid() is called without any argument then it will use this default empty array. And since the array is empty, there's nothing to destructure into width and height, so their default values will apply! So by adding = [] to give the entire parameter a default, the following code will now work:
+
+//createGrid(); // Generates a 5 x 5 grid
