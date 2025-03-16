@@ -20,8 +20,9 @@ class Rabbit extends Animal{
 }
 
 class Fish extends Animal{
+    // Calls the parent class constructor to initialize name and age properties.
     constructor(name, age, swimSpeed){
-        super(name, age); // super is
+        super(name, age); 
         this.swimSpeed = swimSpeed;
 
     }
@@ -40,3 +41,8 @@ class Hawk extends Animal{
 const rabbit = new Rabbit ("rabbit", 1, 25)
 const fish = new Fish ("fish", 1, 25)
 const hawk = new Hawk ("hawk", 3, 50)
+
+
+console.log(rabbit.name);
+console.log(rabbit.age)
+console.log(rabbit.swimSpeed)
