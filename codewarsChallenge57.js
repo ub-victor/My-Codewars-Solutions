@@ -13,3 +13,8 @@ createGrid(); // throws an error
 
 //This throws an error because createGrid() expects an array to be passed in that it will then destructure. Since the function was called without passing an array, it breaks. But, we can use default function parameters for this!
 
+/* 
+function createGrid([width = 5, height = 5] = []) {
+    return `Generates a ${width} x ${height} grid`;
+  }
+     */
