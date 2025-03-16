@@ -58,3 +58,5 @@ const hawk = new Hawk ("hawk", 3, 50)
 console.log(rabbit.name);
 console.log(rabbit.age)
 console.log(rabbit.swimSpeed)
+
+hawk.fly();
