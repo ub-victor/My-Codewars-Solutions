@@ -12,3 +12,16 @@ class Tree {
     }
 }
 
+class Maple extends Tree {
+    constructor(syrupQty = 15, size, leaves){
+        super(size, leaves);
+        this.syrupQty = syrupQty;
+    }
+    changeSeason(season){
+        super.changeSeason(season);
+        if (season === "spring") {
+            this.syrupQty += 1
+        }
+    }
+    
+}
