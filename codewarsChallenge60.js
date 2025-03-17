@@ -10,7 +10,7 @@ class Tree {
         this.leafColor = this.leaves[season] 
         if(season === "spring"){
             this.size += 1;
-        }
+        } return [this.syrupQty, this.size] // Return size & syrupQty for logging
     }
 }
 
