@@ -2,7 +2,7 @@ class Tree {
     constructor(size = "10", leaves = {spring: 'green', summer: "green", fall: "orange", winter: null}){
         this.size = size;
         this.leaves = leaves;
-        this.leafColar = this.leafColar;
+        this.leafColar = null;
     }
     changeSeason(season){
         this.leafColar = this.leaves[season] 
@@ -23,5 +23,13 @@ class Maple extends Tree {
             this.syrupQty += 1
         }
     }
-    
+    gatherSyrup(){
+        this,this.syrupQty -=3;
+    }
 }
+
+const myMaple = new Maple(15, 5);
+
+console.log(changeSeason('fall'))
+console.log(changeSeason())
+console.log(changeSeason('spring'))
