@@ -14,6 +14,10 @@
         const myNumber = [4, 1, -20, -7, 5, 9, -6];
 
         // Call removeNeg with a callback
+        const postNumbers = removeNeg(myNumber, (x)=> x >= 0);
+
+        //Display Result
+        document.getElementById('demo').innerHTML = postNumbers
     </script>
 </body>
 </html>
