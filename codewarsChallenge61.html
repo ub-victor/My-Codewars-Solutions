@@ -18,6 +18,16 @@
 
         //Display Result
         document.getElementById('demo').innerHTML = postNumbers
+
+        // Remove negative numbers
+        function removeNeg(number, callback){
+            const myArray = [];
+            for(const x of numbers){
+                if(callback(x)){
+                    myArray.push(x)
+                }
+            }
+        }
     </script>
 </body>
 </html>
