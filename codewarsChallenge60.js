@@ -23,10 +23,11 @@ class Maple extends Tree {
         super.changeSeason(season);
         if (season === "spring") {
             this.syrupQty += 1
-        }
+        } return [this.syrupQty, this.size]; // Return syrupQty & size for logging 
     }
     gatherSyrup(){
-        this,this.syrupQty -=3;
+        this.syrupQty -=3;
+        return this.syrupQty; // Return updated syrupQty for logging  
     }
 }
 
