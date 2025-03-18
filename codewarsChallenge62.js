@@ -39,3 +39,10 @@ Vehicle.prototype.honkHorn = function(){
 
 // Bicycle Constructor function
 
+function Bicycle(color){
+    // Call the vehicle constructor with overidden values
+    Vehicle.call(this, color, 2, 'honk honk');
+}
+
+// Inherit from Vehicla
+Bicycle.prototype = Object.create(Vehicle.prototype);
