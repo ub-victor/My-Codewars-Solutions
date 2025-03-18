@@ -18,3 +18,10 @@ class Bicycle extends Vehicle{
     }
 }
 
+//test
+
+const myVehicle = new Vehicle();
+myVehicle.honkHorn(); // Output: beep beep
+
+const myBike = new Bicycle();
+myBike.honkHorn() // Output: honk honk
