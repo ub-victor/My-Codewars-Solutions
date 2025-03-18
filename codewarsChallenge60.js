@@ -81,3 +81,6 @@ Maple.prototype.gatherSyrup = function(){
 }
 
 const myMaple = new Maple(15,5);
+myMaple.changeSeason('fall');
+myMaple.gatherSyrup();
+myMaple.changeSeason('spring');
