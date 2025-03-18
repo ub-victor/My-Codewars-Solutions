@@ -76,3 +76,6 @@ Maple.prototype.changeSeason = function(season){
     }
 }
 
+Maple.prototype.gatherSyrup = function(){
+    this.syrupQty -= 3; 
+}
