@@ -56,5 +56,6 @@ myVehicle.honkHorn()
 
 const myBike = new Bicycle();
 myBike.honkHorn(); 
+//Vehicle.call(); // Incorrect - does not associate properties with new instance 
 
 */
