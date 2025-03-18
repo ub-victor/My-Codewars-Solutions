@@ -56,6 +56,6 @@ function Tree (size, leaves){
 Tree.prototype.changeSeason = function(season){
     this.leafColor = this.leaves[season]
     if (season === "spring"){
-        this.size
+        this.size += 1;
     }
 }
