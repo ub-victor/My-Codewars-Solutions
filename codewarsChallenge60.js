@@ -80,3 +80,4 @@ Maple.prototype.gatherSyrup = function(){
     this.syrupQty -= 3; 
 }
 
+const myMaple = new Maple(15,5);
