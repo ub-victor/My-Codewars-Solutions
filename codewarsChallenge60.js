@@ -75,3 +75,4 @@ Maple.prototype.changeSeason = function(season){
         this.syrupQty += 1;
     }
 }
+
