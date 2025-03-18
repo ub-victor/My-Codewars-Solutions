@@ -5,29 +5,33 @@
     <title>Callback Functions</title>
 </head>
 <body>
-    <h1>JavaScript Function</h1>
-    <h2>Callback Function</h2>
-    <p id="demo"></p>
+    <body style="text-align: right">
 
-    <script>
+        <h1>JavaScript Functions</h1>
+        <h2>Callback Functions</h2>
+        <p id="demo"></p>
+        
+        <script>
         // Create an Array
-        const myNumber = [4, 1, -20, -7, 5, 9, -6];
-
-        // Call removeNeg with a callback
-        const postNumbers = removeNeg(myNumber, (x)=> x >= 0);
-
-        //Display Result
-        document.getElementById('demo').innerHTML = postNumbers
-
+        const myNumbers = [4, 1, -20, -7, 5, 9, -6];
+        
+        // Call removeNeg with a Callback
+        const posNumbers = removeNeg(myNumbers, (x) => x >= 0);
+        
+        // Display Result
+        document.getElementById("demo").innerHTML = posNumbers;
+        
         // Remove negative numbers
-        function removeNeg(number, callback){
-            const myArray = [];
-            for(const x of numbers){
-                if(callback(x)){
-                    myArray.push(x)
-                }
-            }return myArray
+        function removeNeg(numbers, callback) {
+          const myArray = [];
+          for (const x of numbers) {
+            if (callback(x)) {
+              myArray.push(x);
+            }
+          }
+          return myArray;
         }
+        </script>
     </script>
 </body>
 </html>

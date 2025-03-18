@@ -41,3 +41,21 @@ console.log(myMaple.changeSeason('fall')); // Outputs: [15, 5]
 console.log(myMaple.changeSeason()); // This call does not provide argument, which may cause undefined behavior. If you want to see fall again, provide 'fall' or some valid season.  
 console.log(myMaple.changeSeason('spring')); // Outputs: [16, 6]  
 console.log(myMaple.gatherSyrup()); // Outputs: 13  
+
+
+
+// Using a Function to to the same
+
+function Tree (size, leaves){
+    this.size = (typeof size === "Undefined")? 10 : size;
+    const defaultLeaves = {spring: "green", summer: "green", fall: "orange", winter: null};
+    this.leaves = (typeof leaves === "undefined")? defaultLeaves : leaves;
+    this.leafColor;
+}
+
+Tree.prototype.changeSeason = function(season){
+    this.leafColor = this.leaves[season]
+    if (season === "spring"){
+        this.size
+    }
+}
