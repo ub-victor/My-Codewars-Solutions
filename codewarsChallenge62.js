@@ -46,3 +46,12 @@ function Bicycle(color){
 
 // Inherit from Vehicla
 Bicycle.prototype = Object.create(Vehicle.prototype);
+Bicycle.prototype.constructor = Bicycle;
+
+// Test
+
+const myVehicle = new Vehicle();
+myVehicle.honkHorn()
+
+const myBike = new Bicycle();
+myBike.honkHorn(); 
