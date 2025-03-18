@@ -32,3 +32,8 @@ function Vehicle(color = 'blue', wheels = 4, horn = 'beep beep'){
     this.wheel = wheels;
     this.horn = horn;
 }
+
+Vehicle.prototype.honkHorn = function(){
+    console.log(this.horn);
+}
+
