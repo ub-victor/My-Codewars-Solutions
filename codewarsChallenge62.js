@@ -37,3 +37,5 @@ Vehicle.prototype.honkHorn = function(){
     console.log(this.horn);
 }
 
+// Bicycle Constructor function
+
