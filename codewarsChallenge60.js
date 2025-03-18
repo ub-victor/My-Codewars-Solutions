@@ -63,4 +63,5 @@ Tree.prototype.changeSeason = function(season){
 
 function Maple (syrupQty, size, leaves){
     Tree.call(this, size, leaves);
+    this.syrupQty = (typeof syrupQty === "undefined")? 15 : syrupQty;
 }
