@@ -61,3 +61,6 @@ Tree.prototype.changeSeason = function(season){
     }
 }
 
+function Maple (syrupQty, size, leaves){
+    
+}
