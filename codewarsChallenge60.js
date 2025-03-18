@@ -46,41 +46,64 @@ console.log(myMaple.gatherSyrup()); // Outputs: 13
 
 // Using a Function to to the same
 
-function Tree (size, leaves){
-    this.size = (typeof size === "Undefined")? 10 : size;
+/*
+
+function Tree(size, leaves) {
+    // Set the size property, default to 10 if size is undefined
+    this.size = (typeof size === "undefined") ? 10 : size;
+    // Define default leaves for the tree
     const defaultLeaves = {spring: "green", summer: "green", fall: "orange", winter: null};
-    this.leaves = (typeof leaves === "undefined")? defaultLeaves : leaves;
+    // Set the leaves property, default to defaultLeaves if leaves is undefined
+    this.leaves = (typeof leaves === "undefined") ? defaultLeaves : leaves;
+    // Initialize leafColor property
     this.leafColor;
 }
 
-Tree.prototype.changeSeason = function(season){
-    this.leafColor = this.leaves[season]
-    if (season === "spring"){
+// Add changeSeason method to Tree prototype
+Tree.prototype.changeSeason = function(season) {
+    // Set the leafColor based on the season
+    this.leafColor = this.leaves[season];
+    // If the season is spring, increase the size by 1
+    if (season === "spring") {
         this.size += 1;
-
     }
 }
 
-function Maple (syrupQty, size, leaves){
+function Maple(syrupQty, size, leaves) {
+    // Call the Tree constructor with size and leaves
     Tree.call(this, size, leaves);
-    this.syrupQty = (typeof syrupQty === "undefined")? 15 : syrupQty;
+    // Set the syrupQty property, default to 15 if syrupQty is undefined
+    this.syrupQty = (typeof syrupQty === "undefined") ? 15 : syrupQty;
 }
 
+// Set the prototype of Maple to be an instance of Tree
 Maple.prototype = Object.create(Tree.prototype);
+// Set the constructor property of Maple prototype to Maple
 Maple.prototype.constructor = Maple;
 
-Maple.prototype.changeSeason = function(season){
+// Add changeSeason method to Maple prototype
+Maple.prototype.changeSeason = function(season) {
+    // Call the changeSeason method of Tree
     Tree.prototype.changeSeason.call(this, season);
-    if (season === "spring"){
+    // If the season is spring, increase the syrupQty by 1
+    if (season === "spring") {
         this.syrupQty += 1;
     }
 }
 
-Maple.prototype.gatherSyrup = function(){
-    this.syrupQty -= 3; 
+// Add gatherSyrup method to Maple prototype
+Maple.prototype.gatherSyrup = function() {
+    // Decrease the syrupQty by 3
+    this.syrupQty -= 3;
 }
 
-const myMaple = new Maple(15,5);
+// Create a new instance of Maple with syrupQty 15 and size 5
+const myMaple = new Maple(15, 5);
+// Change the season to fall
 myMaple.changeSeason('fall');
+// Gather syrup, decreasing syrupQty by 3
 myMaple.gatherSyrup();
+// Change the season to spring
 myMaple.changeSeason('spring');
+
+*/
