@@ -26,7 +26,7 @@ myVehicle.honkHorn(); // Output: beep beep
 const myBike = new Bicycle();
 myBike.honkHorn() // Output: honk honk
 
-
+/*
 function Vehicle(color = 'blue', wheels = 4, horn = 'beep beep'){
     this.color = color
     this.wheel = wheels;
