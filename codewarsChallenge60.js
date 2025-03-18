@@ -69,3 +69,9 @@ function Maple (syrupQty, size, leaves){
 Maple.prototype = Object.create(Tree.prototype);
 Maple.prototype.constructor = Maple;
 
+Maple.prototype.changeSeason = function(season){
+    Tree.prototype.changeSeason.call(this, season);
+    if (season === "spring"){
+        this.syrupQty += 1;
+    }
+}
