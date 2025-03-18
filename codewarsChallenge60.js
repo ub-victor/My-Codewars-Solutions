@@ -66,3 +66,6 @@ function Maple (syrupQty, size, leaves){
     this.syrupQty = (typeof syrupQty === "undefined")? 15 : syrupQty;
 }
 
+Maple.prototype = Object.create(Tree.prototype);
+Maple.prototype.constructor = Maple;
+
