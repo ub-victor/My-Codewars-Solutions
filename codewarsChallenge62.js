@@ -46,7 +46,7 @@ function Bicycle(color){
 
 // Inherit from Vehicla
 Bicycle.prototype = Object.create(Vehicle.prototype);
-Bicycle.prototype.constructor = Bicycle;
+Bicycle.prototype.constructor = Bicycle; //is adjusted to point back to Bicycle.
 
 // Test
 
