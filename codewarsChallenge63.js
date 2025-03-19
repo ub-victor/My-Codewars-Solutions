@@ -6,3 +6,14 @@ const bowl = {
     [Symbol('banana')]: { color: 'yellow', weight: 176.845 }
   };
   console.log(bowl);
+
+  /*
+  const bowl = {
+
+  'apple': { color: 'red', weight: 136.078 },
+  'banana': { color: 'yellow', weight: 183.151 },
+  'orange': { color: 'orange', weight: 170.097 },
+  'banana': { color: 'yellow', weight: 176.845 }
+};
+console.log(bowl);
+  */
