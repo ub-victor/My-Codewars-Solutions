@@ -16,3 +16,8 @@ const arrayIterator = digits[Symbol.iterator]();
 // Here's an example of how you might use the iterator:
 
 // In summary, the parentheses () are used to call the Symbol.iterator method, which returns an iterator object for the digits array.
+
+console.log(arrayIterator.next()); // { value: 1, done: false }
+console.log(arrayIterator.next()); // { value: 2, done: false }
+console.log(arrayIterator.next()); // { value: 3, done: false }
+console.log(arrayIterator.next()); // { value: undefined, done: true }
