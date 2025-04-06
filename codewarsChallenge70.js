@@ -17,5 +17,13 @@ console.log(roster); // Log the original roster array of student objects
 */
 
 const roster = new WeakSet([student1, student2, student3]);
+const getStudentNames = (roster) => {
+    return Array.from(roster).map(student => student.name); // Convert WeakSet to array and extract names
+};
+const getStudentAges = (roster) => {
+    return Array.from(roster).map(student => student.age); // Convert WeakSet to array and extract ages
+};
 console.log(roster.has(student1)); // Check if student1 is in the WeakSet: true
+console.log(getStudentNames(roster)); // Log an array of student names: ['James', 'Julia', 'Richard']
+console.log(getStudentAges(roster)); // Log an array of student ages: [26, 27, 31]
 console.log(roster);
