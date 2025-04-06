@@ -15,3 +15,7 @@ console.log(getStudentAges(roster)); // Log an array of student ages: [26, 27, 3
 console.log(roster); // Log the original roster array of student objects
 
 */
+
+const roster = new WeakSet([student1, student2, student3]);
+console.log(roster.has(student1)); // Check if student1 is in the WeakSet: true
+console.log(roster);
