@@ -14,3 +14,4 @@ uniqueFlavors.add(flavor2);
 
 uniqueFlavors.add(flavor1);  
 
+console.log(uniqueFlavors)
