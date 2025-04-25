@@ -63,9 +63,11 @@ By completing these challenges, you will be well-equipped to tackle more advance
 
 ### How to Run
 Clone this repository to your local machine using:
+```bash
 
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/ub-victor/My-Codewars-Solutions.git
+```
+
 Open the index.html file in your web browser to view the challenges and their descriptions.
 You can also run individual JavaScript files in your browser's console or using Node.js.
 ### Contributing
