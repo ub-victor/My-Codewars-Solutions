@@ -1,2 +1,2 @@
 const currentYear = new Date().getFullYear();
-document.
+document.getElementsByClassName("current-year").textContent = currentYear;
