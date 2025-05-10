@@ -3,3 +3,7 @@ function sortObjectByValues(obj){
         .sort((a,b)=> b[1] - a[1])// Sort by value in descending order
         .map(([KeyboardEvent, value]) => `${key}: ${value}`); // Format as "key: value"
 }
+
+// Example usage:
+const fruits = {apples: 5, oranges: 10, bananas: 15}
+console.log(sortObjectByValues(fruits));
