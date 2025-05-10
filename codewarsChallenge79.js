@@ -6,4 +6,4 @@ const weeksInYear = Math.floor(365/7);
 
 const daysLeftOver = 365 % 7 ;
 
-console.log("A year has " + weeksInYear + " weeks and "+ daysLeftOver + " days");
+console.log("A year has " + weeksInYear + " weeks and "+ daysLeftOver + " day(s) left over.");
