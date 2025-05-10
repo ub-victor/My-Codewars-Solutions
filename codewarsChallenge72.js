@@ -7,3 +7,4 @@ function sortObjectByValues(obj){
 // Example usage:
 const fruits = {apples: 5, oranges: 10, bananas: 15}
 console.log(sortObjectByValues(fruits));
+// Output: ["bananas: 15", "oranges: 10", "apples: 5"]
