@@ -9,4 +9,5 @@ for(x in contact) {
     // console.log(contact[x]);
     // // print property and value
     //  console.log(x + ": "+ contact[x]);
+    //  console.log(`${x} : ${typeof contact[x]} : ${contact[x]}`);
 }
