@@ -12,5 +12,13 @@ function findAverage(array) {
   }
 
  console.log(findAverage([5,5,5,5]));
+
+
+
+ // Using one line of code
+//  function findAverage(array) {
+//   return array.reduce((sum, num) => sum + num, 0) / array.length;
+// }
+// console.log(findAverage([5, 5, 5, 5]));
   
  
