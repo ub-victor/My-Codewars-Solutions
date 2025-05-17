@@ -15,3 +15,10 @@ function updateLight(current) {
 }
 
 console.log(updateLight("green"));
+
+
+// Using Switch Statement
+// function findAverage(array) {
+//   return array.reduce((sum, num) => sum + num, 0) / array.length;
+// }
+// console.log(findAverage([5, 5, 5, 5]));
