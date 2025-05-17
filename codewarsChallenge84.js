@@ -8,5 +8,4 @@ let contact = {
 if (!contact.notes) {
   contact.notes = "something really important";
 }
-
 console.log(contact);
