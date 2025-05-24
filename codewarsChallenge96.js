@@ -33,4 +33,6 @@ let pattern = /^cat$/; // This // pattern matches the exact string "cat" , ^ mea
 console.log(pattern.test("cat")); // true
 console.log(pattern.test("cats")); // false
 
-let 
+
+let pattern = /\bb/w*/g; // This // pattern matches the letter 'b' at the start of a word followed by zero or more 'w's
+console.log("banana boat".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat'
