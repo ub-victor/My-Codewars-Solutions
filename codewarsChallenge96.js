@@ -23,3 +23,14 @@ console.log(pattern.test("abc123")); // true
 console.log(pattern.test("abc")); // false
 
 
+/**
+ * Regular Expression: Exact Match for "cat"
+ *
+ * This regular expression pattern matches only the exact string "cat".
+ * It does not match substrings or variations; the input must be exactly "cat".
+ */
+let pattern = /^cat$/; // This // pattern matches the exact string "cat" , ^ means start, $ means end
+console.log(pattern.test("cat")); // true
+console.log(pattern.test("cats")); // false
+
+let 
