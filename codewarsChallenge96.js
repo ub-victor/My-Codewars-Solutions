@@ -34,5 +34,5 @@ console.log(pattern.test("cat")); // true
 console.log(pattern.test("cats")); // false
 
 
-let pattern = /\bb/w*/g; // This // pattern matches the letter 'b' at the start of a word followed by zero or more 'w's
-console.log("banana boat".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat'
+let pattern = /\bb\w*/g; // This // pattern matches the letter 'b' at the start of a word followed by zero or more 'w's
+console.log("banana boat tomato".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat' and ignores 'tomato' since it doesn't start with 'b' by ouptputting an array of matches
