@@ -34,5 +34,11 @@ console.log(pattern.test("cat")); // true
 console.log(pattern.test("cats")); // false
 
 
-let pattern = /\bb\w*/g; // This // pattern matches the letter 'b' at the start of a word followed by zero or more 'w's
-console.log("banana boat tomato".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat' and ignores 'tomato' since it doesn't start with 'b' by ouptputting an array of matches
+/**
+ * Regular expression to match words that start with the letter 'b'.
+ *
+ * This pattern uses the word boundary anchor (`\b`) to ensure that the match occurs at the start of a word,
+ * followed by the letter 'b' and then zero or more word characters (`\w*`). The global flag (`g`) allows matching all occurrences in a string.
+ */
+let pattern = /\bb\w*/g; // The first 'b' is a word boundary (\b), ensuring 'b' is at the start of a word; the second 'b' matches the letter 'b' itself.
+console.log("banana boat tomabto".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat' and ignores 'tomato' since it doesn't start with 'b' by ouptputting an array of matches
