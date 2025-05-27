@@ -62,7 +62,6 @@ function hello(callback){
 
 hello(goodbye);
 
-
 function goodbye(){
   console.log("Goodbye!")
 }  
@@ -84,7 +83,7 @@ function sum(callback, x, y){
 sum(displayConsole, 4, 4);
 
 function displayConsole(result){
-  console.log("my result is")
+  console.log("my result is" + result);
 }
 
  
