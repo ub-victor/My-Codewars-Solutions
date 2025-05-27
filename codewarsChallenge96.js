@@ -33,7 +33,7 @@ let pattern = /^cat$/; // This // pattern matches the exact string "cat" , ^ mea
 console.log(pattern.test("cat")); // true
 console.log(pattern.test("cats")); // false
 
-
+ 
 /**
  * Regular expression to match words that start with the letter 'b'.
  *
