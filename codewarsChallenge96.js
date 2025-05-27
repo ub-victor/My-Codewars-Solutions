@@ -48,3 +48,29 @@ console.log("banana boat tomato".match(pattern)); // ["b", "b"] - matches 'b' at
 // /\bb\w*/ finds whole words starting with 'b'.
 // \w*: Match zero or more word characters (letters, digits, underscore).
 // g: Find all matches in the string, not just the first.
+
+
+/**
+ * hello - Greets and executes a callback
+ *
+ * This function logs "Hello!" to the console and then invokes the provided callback function.
+ */
+function hello(callback){
+    console.log("Hello!");
+    callback();
+}
+
+hello(goodbye);
+
+
+function goodbye(){
+  console.log("Goodbye!")
+}  
+
+function wait(){
+  console.log("wait")
+}
+
+function leave(){
+  console.log("leave")
+}
