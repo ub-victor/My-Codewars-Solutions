@@ -5,4 +5,4 @@ console.log(
   `Character code ${sentence.charCodeAt(index)} is equal to ${sentence.charAt(index,)}`
   );
 
-  
+
