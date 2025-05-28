@@ -738,8 +738,8 @@
                     <a href="codewarsChallenge99.js"><h3>Challenge 99: Regular expression to match words that start with the letter 'b'.
                     </h3></a>  
                     <p>
-                        This regular expression pattern matches only the exact string "cat".
-                        It does not match substrings or variations; the input must be exactly "cat".
+                        This pattern uses the word boundary anchor (`\b`) to ensure that the match occurs at the start of a word,
+                        followed by the letter 'b' and then zero or more word characters (`\w*`). The global flag (`g`) allows matching all occurrences in a string.
                     </p>
                 </div>
             
