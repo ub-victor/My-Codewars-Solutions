@@ -5,15 +5,6 @@ console.log(pattern.test("hi there")); // false
 
 
 /**
- * Regular Expression: Digit Matcher
- *
- * This regular expression pattern matches any single digit character (0-9).
- * Useful for validating or extracting numeric digits from strings.
- */
-
-
-
-/**
  * Regular Expression: Exact Match for "cat"
  *
  * This regular expression pattern matches only the exact string "cat".
