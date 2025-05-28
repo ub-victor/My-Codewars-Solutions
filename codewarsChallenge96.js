@@ -4,62 +4,7 @@ console.log(pattern.test("hello world")); // true
 console.log(pattern.test("hi there")); // false  
 
 
-/**
- * Regular Expression: Exact Match for "cat"
- *
- * This regular expression pattern matches only the exact string "cat".
- * It does not match substrings or variations; the input must be exactly "cat".
- */
-let pattern = /^cat$/; // This // pattern matches the exact string "cat" , ^ means start, $ means end
-console.log(pattern.test("cat")); // true
-console.log(pattern.test("cats")); // false
-
- 
-/**
- * Regular expression to match words that start with the letter 'b'.
- *
- * This pattern uses the word boundary anchor (`\b`) to ensure that the match occurs at the start of a word,
- * followed by the letter 'b' and then zero or more word characters (`\w*`). The global flag (`g`) allows matching all occurrences in a string.
- */
-let pattern = /\bb\w*/g; // The first 'b' is a word boundary (\b), ensuring 'b' is at the start of a word; the second 'b' matches the letter 'b' itself.
-console.log("banana boat tomato".match(pattern)); // ["b", "b"] - matches 'b' at the start of 'banana' and 'boat' and ignores 'tomato' since it doesn't start with 'b' by ouptputting an array of matches
-
-
-// /b/ finds any 'b' in the string.
-// /\bb\w*/ finds whole words starting with 'b'.
-// \w*: Match zero or more word characters (letters, digits, underscore).
-// g: Find all matches in the string, not just the first.
-
-
-/**
- * hello - Greets and executes a callback
- *
- * This function logs "Hello!" to the console and then invokes the provided callback function.
- */
-function hello(callback){
-    console.log("Hello!");
-    callback();
-}
-
-hello(goodbye);
-
-function goodbye(){
-  console.log("Goodbye!")
-}  
-
-function wait(){
-  console.log("wait")
-}
-
-function leave(){
-  console.log("leave")
-}
-
-// Title:
-// Callback Function Example: Summing Two Numbers
-
-// Summary:
-// This code defines a sum function that adds two numbers and passes the result to a callback function. It demonstrates using callbacks by printing the sum to the console with a separate displayConsole function.
+let pattern = /\bb\w*/g; // The first '
 
 function sum(callback, x, y){
     let result  = x+y
