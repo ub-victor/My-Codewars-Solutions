@@ -10,9 +10,7 @@ console.log(pattern.test("hi there")); // false
  * This regular expression pattern matches any single digit character (0-9).
  * Useful for validating or extracting numeric digits from strings.
  */
-let pattern = /\d/; // This pattern matches any digit (0-9)
-console.log(pattern.test("abc123")); // true
-console.log(pattern.test("abc")); // false
+
 
 
 /**
