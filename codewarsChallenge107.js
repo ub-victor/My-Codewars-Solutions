@@ -6,3 +6,4 @@ console.log(
   );
 
 
+// Output: Character code 113 is equal to q
