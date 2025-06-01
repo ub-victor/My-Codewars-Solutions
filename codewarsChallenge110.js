@@ -6,4 +6,4 @@ function repeatString(n, s){
     }
 }
 
-console.log(repeatString(3, 'abc')); // 'abcabcabc'
+console.log(repeatString(3, 'abc')); // 'abcabcabc';
