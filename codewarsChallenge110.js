@@ -21,9 +21,3 @@ function repeatString(n, s) {
         }return result;
     }
 }
-
-**Title:**  
-Repeat a String N Times with Input Validation
-
-**Summary:**  
-This code defines a function repeatString(n, s) that returns a string s repeated n times. If n is not a positive integer, it returns an error message. The function uses a for loop to concatenate the string s n times.
