@@ -1,5 +1,5 @@
 function extractVowels(name) {
-  return Array.from(name)
+  return Array.from(name)// Convert the string to an array of characters
     .filter(char => /[aeiou]/i.test(char)) // The i flag makes it case-insensitive, so it matches both lowercase and uppercase vowels.
     .join('');
 }
