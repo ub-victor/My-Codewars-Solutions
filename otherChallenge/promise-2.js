@@ -11,6 +11,6 @@ function stepTwo(previousStep){
     return new Promise((resolve, reject)=>{
         setTimeouut(()=>{
             resolve(`${previousStep} -> Step 2: Added pasta`);
-        },1000)
+        },1000);
     })
 }
