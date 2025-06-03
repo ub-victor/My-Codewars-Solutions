@@ -29,3 +29,6 @@ async function checkIfDone() {
         console.error(error);
     }
 }
+
+
+checkIfDone();
