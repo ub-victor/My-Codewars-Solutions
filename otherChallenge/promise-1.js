@@ -14,6 +14,6 @@ isItDoneYet
     .then(message =>{
         console
     })
-    .catch (error){
+    .catch (error =>{
         console.error(error);
-    }
+    })
