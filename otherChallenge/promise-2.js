@@ -36,3 +36,6 @@ stepOne()
     .then ((finalResult)=>{
         console.log(finalResult);
     })
+    .catch ((error)=>{
+        console.error("Something went wrong:", error);
+    })
