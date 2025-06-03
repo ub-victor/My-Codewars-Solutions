@@ -9,7 +9,7 @@ function stepOne(){
 
 function stepTwo(previousStep){
     return new Promise((resolve, reject)=>{
-        setTimeouut(()=>{
+        setTimeout(()=>{
             resolve(`${previousStep} -> Step 2: Added pasta`);
         },1000);
     })
