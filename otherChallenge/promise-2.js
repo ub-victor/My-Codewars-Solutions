@@ -16,7 +16,7 @@ function stepTwo(previousStep){
 }
 
 
-function stepThreee(previousStep){
+function stepThree(previousStep){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve (`${previousStep} -> Step 3: Drained and added sauce`);
