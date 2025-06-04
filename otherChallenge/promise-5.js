@@ -1,4 +1,4 @@
-new promise((resolve, reject) => {
+new Promise((resolve, reject) => {
     resolve(10)
 })
 .then(result =>{
