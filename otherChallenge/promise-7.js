@@ -7,7 +7,7 @@ new Promise ((resolve, reject) => {
 })
 .then(result=>{
     console.log("2nd then:", result);
-    throw new error ("Something went wrong here!"); 
+    throw new Error ("Something went wrong here!"); 
 })
 .then(result =>{
     console.log("3rd then:", result); // This will not run due to the error in the previous then
