@@ -1,0 +1,4 @@
+let promise = new Promise((resolve, reject) => {
+    // Simulate an error
+    let success = false
+}
