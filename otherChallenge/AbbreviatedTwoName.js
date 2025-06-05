@@ -12,4 +12,3 @@ console.log(abbrevName("Ushindi Bihame Victoire")); // "U.B.V"
 
 
 
-
