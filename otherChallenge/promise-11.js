@@ -4,3 +4,9 @@ function fetchData(){
     });
 }
 
+function processData(data){
+    console.log("Processing:", data);
+    return new Promise((resolve, reject) => {
+        setTimeout(() => resolve("Data processed"), 1000); // Simulate processing time
+    });
+}
