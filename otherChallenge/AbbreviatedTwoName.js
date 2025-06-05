@@ -11,4 +11,3 @@ console.log(abbrevName("Ushindi Bihame Victoire")); // "U.B.V"
 // Join return the result as a string with the first letter of each name separated by a dot
 
 
-
