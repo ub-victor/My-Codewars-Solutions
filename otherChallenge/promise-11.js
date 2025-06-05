@@ -22,4 +22,3 @@ fetchData()
     .catch(error => {
         console.error("Caught Error:", error);
     });
-
