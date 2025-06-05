@@ -1,5 +1,5 @@
 const abbrevName = name =>{
-    name.toUpperCase().split(' ').map(element => element[0]).join('.')
+   return name.toUpperCase().split(' ').map(element => element[0]).join('.')
 }
 
 
