@@ -3,7 +3,7 @@ const abbrevName = name =>{
 }
 
 
-abbrevName("Ushindi Bihame Victoire"); // "U.B.V"
+console.log(abbrevName("Ushindi Bihame Victoire")); // "U.B.V"
 
 
 // Split results into an array of names
