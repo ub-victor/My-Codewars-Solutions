@@ -38,4 +38,4 @@ function neutralization(s1, s2) {
 }
 
 console.log(neutralization('++++', '++--'));
-console.log(neutralization('++--', '----')); 
+console.log(neutralization('++--', '----'));
