@@ -21,7 +21,7 @@ console.log(neutralise('++--', '----'));
 
 // an other way of doing it for the same problem but with different rules +// if both are + then return + // if both are - then return -// else return 0    
 
-function neutralise(s1, s2) {
+function neutralization(s1, s2) {
     let result = '';
     for (let i = 0; i < s1.length; i++) {
         const c1 = s1[i];
@@ -36,3 +36,6 @@ function neutralise(s1, s2) {
     }
     return result;
 }
+
+console.log(neutralization('++++', '++--'));
+console.log(neutralization('++--', '----'));
