@@ -1,6 +1,6 @@
 let point0 = {x:10, y: 20 };
 let point2 = { ...point0};
-let point3 = { ...point0, z: 100};
+let point3 = { ...point0, z: 100};// here insead of Object.assign we are using spread operator the the objects with spread operator means that we are creating a new object with the properties of the existing object and adding new properties to it.
 
 
 console.log(point0); // { x: 10, y: 20 }
