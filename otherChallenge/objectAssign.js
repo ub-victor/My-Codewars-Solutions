@@ -13,4 +13,4 @@ console.log(point1); // { x: 10, y: 20 }
 console.log(point1.z); // undefined, point1 does not have a z property
 console.log(point2.z); // 30, point2 has a z property added from the Object.assign
 console.log(point2); // { x: 10, y: 20, z: 30 }
-console.log(point3.3)
+console.log(point3); // { x: 10, y: 20, z: 200, color: 'red' }
