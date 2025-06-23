@@ -16,4 +16,4 @@ console.log(point2.x); // 10
 console.log(point2.y); // 20
 console.log(point3.z); // 100
 console.log(point3.x); // 10
-console.log(point3.y); // 20    
+console.log(point3.y); // 20   
